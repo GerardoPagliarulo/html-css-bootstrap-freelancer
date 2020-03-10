@@ -1,0 +1,151 @@
+body {
+  font-family: 'Oxanium', cursive, sans-serif;
+  padding-top: 50px;
+}
+/* UTILITIES */
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pd-0 {
+  padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #33475b;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+/* JUMBOTRON */
+.jumbotron-bg {
+  height: 500px;
+  background: #afebe4;
+  position: relative;
+}
+
+.row img {
+  height: 200px;
+}
+
+.jumbotron-contents h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.jumbotron-contents i {
+  color: #fff;
+  font-size: 25px;
+}
+
+.jumbotron-contents h3 {
+  color: #fff;
+  font-size: 21px;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+  position: relative;
+  height: 700px;
+}
+
+.first-line-img {
+  padding-bottom: 70px;
+}
+
+.portfolio img {
+  border-radius: 5%;
+}
+
+
+
+/* ABOUT */
+.about {
+  height: 400px;
+  background: #afebe4;
+  position: relative;
+}
+
+.btn {
+  background: #afebe4;
+  border: 1px solid #fff;
+}
+
+/* CONTACT */
+.contact {
+  height: 600px;
+  position: relative;
+}
+
+.form-control {
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #333;
+}
+
+.form-control-message {
+  margin: 0px;
+  width: 760px;
+  height: 70px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #333;
+}
+
+/* FOOTER */
+.first-footer {
+  position: relative;
+  height: 200px;
+  background: #3b6691;
+}
+
+.first-footer p {
+  color: #fff;
+}
+
+.first-footer h3 {
+  color: #fff;
+}
+
+.first-footer a i {
+  margin: 0 10px;
+  font-size: 25px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.second-footer {
+  height: 100px;
+  background: #33475b;
+  line-height: 100px;
+}
+
+.second-footer p {
+  color: #fff;
+}
